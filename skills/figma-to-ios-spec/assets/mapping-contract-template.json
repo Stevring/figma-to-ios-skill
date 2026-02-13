@@ -1,0 +1,42 @@
+{
+  "contract_version": "2.0",
+  "source": {
+    "figma_json": ".ai_tmp/figma-example.json",
+    "generated_at": "2026-01-01T00:00:00+00:00",
+    "root_node_id": "REPLACE_WITH_ROOT_ID"
+  },
+  "nodes": [
+    {
+      "bfs_index": 0,
+      "node_id": "REPLACE_WITH_NODE_ID",
+      "node_name": "REPLACE_WITH_NODE_NAME",
+      "figma_type": "FRAME",
+      "path": "Root",
+      "depth": 0,
+      "parent_node_id": null,
+      "child_node_ids": [],
+      "status": "pending",
+      "mapping": {
+        "ios_component": null,
+        "representation": null,
+        "absorbed_into_parent": null,
+        "layout_pins": {
+          "pins": {
+            "left": null,
+            "right": null,
+            "top": null,
+            "bottom": null,
+            "centerX": null,
+            "centerY": null,
+            "width": null,
+            "height": null
+          },
+          "notes": []
+        },
+        "style": {},
+        "implementation_spec": {},
+        "notes": ""
+      }
+    }
+  ]
+}

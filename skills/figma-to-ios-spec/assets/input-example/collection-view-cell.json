@@ -1,0 +1,598 @@
+{
+  "id": "3080:2066",
+  "name": "EditCookStepCell",
+  "type": "FRAME",
+  "visible": true,
+  "locked": false,
+  "constraints": {
+    "horizontal": "MIN",
+    "vertical": "MIN"
+  },
+  "layoutAlign": "STRETCH",
+  "layoutGrow": 0,
+  "x": 0,
+  "y": 0,
+  "width": 370,
+  "height": 194,
+  "rotation": 0,
+  "clipsContent": true,
+  "layoutMode": "VERTICAL",
+  "primaryAxisAlignItems": "MIN",
+  "counterAxisAlignItems": "MIN",
+  "primaryAxisSizingMode": "AUTO",
+  "counterAxisSizingMode": "FIXED",
+  "itemSpacing": 8,
+  "paddingLeft": 16,
+  "paddingRight": 16,
+  "paddingTop": 10,
+  "paddingBottom": 10,
+  "layoutWrap": "NO_WRAP",
+  "counterAxisSpacing": 0,
+  "counterAxisAlignContent": "AUTO",
+  "layoutPositioning": "AUTO",
+  "minWidth": null,
+  "minHeight": null,
+  "maxWidth": null,
+  "maxHeight": null,
+  "layoutSizingHorizontal": "FILL",
+  "layoutSizingVertical": "HUG",
+  "fills": [
+    {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "hexRGBA": "#FFFFFFFF",
+        "colorVariableName": "Backgrounds (Grouped)/Secondary"
+      }
+    }
+  ],
+  "cornerRadius": 16,
+  "opacity": 1,
+  "children": [
+    {
+      "id": "3080:2067",
+      "name": "Title",
+      "type": "FRAME",
+      "visible": true,
+      "locked": false,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      },
+      "layoutAlign": "STRETCH",
+      "layoutGrow": 0,
+      "x": 16,
+      "y": 10,
+      "width": 338,
+      "height": 22,
+      "rotation": 0,
+      "clipsContent": false,
+      "layoutMode": "NONE",
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "FIXED",
+      "counterAxisSizingMode": "FIXED",
+      "itemSpacing": 4,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "layoutWrap": "NO_WRAP",
+      "counterAxisSpacing": 0,
+      "counterAxisAlignContent": "AUTO",
+      "layoutPositioning": "AUTO",
+      "minWidth": null,
+      "minHeight": null,
+      "maxWidth": null,
+      "maxHeight": null,
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "FIXED",
+      "cornerRadius": 0,
+      "opacity": 1,
+      "children": [
+        {
+          "id": "3080:2068",
+          "name": "StepNumber",
+          "type": "FRAME",
+          "visible": true,
+          "locked": false,
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "CENTER"
+          },
+          "layoutAlign": "INHERIT",
+          "layoutGrow": 0,
+          "x": 0,
+          "y": 1.009765625,
+          "width": 20,
+          "height": 20,
+          "rotation": 0,
+          "clipsContent": true,
+          "layoutMode": "NONE",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "MIN",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "FIXED",
+          "itemSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0,
+          "layoutWrap": "NO_WRAP",
+          "counterAxisSpacing": 0,
+          "counterAxisAlignContent": "AUTO",
+          "layoutPositioning": "AUTO",
+          "minWidth": null,
+          "minHeight": null,
+          "maxWidth": null,
+          "maxHeight": null,
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED",
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 0.20000000298023224,
+              "blendMode": "NORMAL",
+              "color": {
+                "hexRGBA": "#FF7A4533",
+                "colorVariableName": "Dishify Brand 20%"
+              }
+            }
+          ],
+          "cornerRadius": 14,
+          "opacity": 1,
+          "children": [
+            {
+              "id": "3080:2069",
+              "name": "1",
+              "type": "TEXT",
+              "visible": true,
+              "locked": false,
+              "constraints": {
+                "horizontal": "CENTER",
+                "vertical": "CENTER"
+              },
+              "layoutAlign": "INHERIT",
+              "layoutGrow": 0,
+              "x": 6,
+              "y": 1,
+              "width": 7,
+              "height": 18,
+              "rotation": 0,
+              "layoutPositioning": "AUTO",
+              "minWidth": null,
+              "minHeight": null,
+              "maxWidth": null,
+              "maxHeight": null,
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "hexRGBA": "#FF7A45FF",
+                    "colorVariableName": "BrandPrimary/Light"
+                  }
+                }
+              ],
+              "opacity": 1,
+              "characters": "1",
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "BOTTOM",
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontName": {
+                "family": "SF Pro",
+                "style": "Semibold"
+              },
+              "fontSize": 13,
+              "textDecoration": "NONE",
+              "textVariableName": "Footnote/Emphasized"
+            }
+          ]
+        },
+        {
+          "id": "3080:2070",
+          "name": "TitleLabel",
+          "type": "TEXT",
+          "visible": true,
+          "locked": false,
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "CENTER"
+          },
+          "layoutAlign": "INHERIT",
+          "layoutGrow": 0,
+          "x": 24,
+          "y": 0.009765625,
+          "width": 84,
+          "height": 22,
+          "rotation": 0,
+          "layoutPositioning": "AUTO",
+          "minWidth": null,
+          "minHeight": null,
+          "maxWidth": null,
+          "maxHeight": null,
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED",
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "hexRGBA": "#000000FF"
+              }
+            }
+          ],
+          "opacity": 1,
+          "characters": "解冻泡血水",
+          "textAlignHorizontal": "LEFT",
+          "textAlignVertical": "BOTTOM",
+          "textAutoResize": "WIDTH_AND_HEIGHT",
+          "fontName": {
+            "family": "SF Pro",
+            "style": "Semibold"
+          },
+          "fontSize": 17,
+          "textDecoration": "NONE",
+          "textVariableName": "Headline/Regular"
+        },
+        {
+          "id": "3080:2074",
+          "name": "DeleteButton",
+          "type": "FRAME",
+          "visible": true,
+          "locked": false,
+          "constraints": {
+            "horizontal": "MAX",
+            "vertical": "CENTER"
+          },
+          "layoutAlign": "INHERIT",
+          "layoutGrow": 0,
+          "x": 318,
+          "y": 1.009765625,
+          "width": 20,
+          "height": 20,
+          "rotation": 0,
+          "clipsContent": true,
+          "layoutMode": "NONE",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "MIN",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "FIXED",
+          "itemSpacing": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0,
+          "layoutWrap": "NO_WRAP",
+          "counterAxisSpacing": 0,
+          "counterAxisAlignContent": "AUTO",
+          "layoutPositioning": "AUTO",
+          "minWidth": null,
+          "minHeight": null,
+          "maxWidth": null,
+          "maxHeight": null,
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED",
+          "cornerRadius": 0,
+          "opacity": 1,
+          "children": [
+            {
+              "id": "3080:2075",
+              "name": "minus.circle.fill",
+              "type": "TEXT",
+              "visible": true,
+              "locked": false,
+              "constraints": {
+                "horizontal": "CENTER",
+                "vertical": "CENTER"
+              },
+              "layoutAlign": "INHERIT",
+              "layoutGrow": 0,
+              "x": 1,
+              "y": 0,
+              "width": 18,
+              "height": 20,
+              "rotation": 0,
+              "layoutPositioning": "AUTO",
+              "minWidth": null,
+              "minHeight": null,
+              "maxWidth": null,
+              "maxHeight": null,
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "FIXED",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "hexRGBA": "#FF3B30FF",
+                    "colorVariableName": "Colors/Red"
+                  }
+                }
+              ],
+              "opacity": 1,
+              "characters": "􀁏",
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "BOTTOM",
+              "textAutoResize": "WIDTH_AND_HEIGHT",
+              "fontName": {
+                "family": "SF Pro",
+                "style": "Regular"
+              },
+              "fontSize": 15,
+              "textDecoration": "NONE",
+              "textVariableName": "Subheadline/Regular"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3080:2081",
+      "name": "Edit",
+      "type": "FRAME",
+      "visible": true,
+      "locked": false,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      },
+      "layoutAlign": "STRETCH",
+      "layoutGrow": 0,
+      "x": 16,
+      "y": 40,
+      "width": 338,
+      "height": 108,
+      "rotation": 0,
+      "clipsContent": true,
+      "layoutMode": "VERTICAL",
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "itemSpacing": 10,
+      "paddingLeft": 10,
+      "paddingRight": 10,
+      "paddingTop": 10,
+      "paddingBottom": 10,
+      "layoutWrap": "NO_WRAP",
+      "counterAxisSpacing": 0,
+      "counterAxisAlignContent": "AUTO",
+      "layoutPositioning": "AUTO",
+      "minWidth": null,
+      "minHeight": null,
+      "maxWidth": null,
+      "maxHeight": null,
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.07999999821186066,
+          "blendMode": "NORMAL",
+          "color": {
+            "hexRGBA": "#78788014",
+            "colorVariableName": "Fills/Quaternary"
+          }
+        }
+      ],
+      "cornerRadius": 8,
+      "opacity": 1,
+      "children": [
+        {
+          "id": "3080:2083",
+          "name": "冷冻牛肋条提前 1 天放入冰箱保鲜层自然解冻，解冻后浸泡半小时出血水，冷冻牛肋条提前 1 天放入冰箱保鲜层自然解冻，解冻后浸泡半小时出血水",
+          "type": "TEXT",
+          "visible": true,
+          "locked": false,
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "layoutAlign": "STRETCH",
+          "layoutGrow": 0,
+          "x": 10,
+          "y": 10,
+          "width": 318,
+          "height": 88,
+          "rotation": 0,
+          "layoutPositioning": "AUTO",
+          "minWidth": null,
+          "minHeight": null,
+          "maxWidth": null,
+          "maxHeight": null,
+          "layoutSizingHorizontal": "FILL",
+          "layoutSizingVertical": "HUG",
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "hexRGBA": "#000000FF"
+              }
+            }
+          ],
+          "opacity": 1,
+          "characters": "冷冻牛肋条提前 1 天放入冰箱保鲜层自然解冻，解冻后浸泡半小时出血水，冷冻牛肋条提前 1 天放入冰箱保鲜层自然解冻，解冻后浸泡半小时出血水",
+          "textAlignHorizontal": "LEFT",
+          "textAlignVertical": "BOTTOM",
+          "textAutoResize": "HEIGHT",
+          "fontName": {
+            "family": "SF Pro",
+            "style": "Regular"
+          },
+          "fontSize": 17,
+          "textDecoration": "NONE",
+          "textVariableName": "Body/Regular"
+        }
+      ]
+    },
+    {
+      "id": "3082:2072",
+      "name": "计时器",
+      "type": "FRAME",
+      "visible": true,
+      "locked": false,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      },
+      "layoutAlign": "INHERIT",
+      "layoutGrow": 0,
+      "x": 16,
+      "y": 156,
+      "width": 96,
+      "height": 28,
+      "rotation": 0,
+      "clipsContent": false,
+      "layoutMode": "HORIZONTAL",
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "itemSpacing": 2,
+      "paddingLeft": 8,
+      "paddingRight": 8,
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "layoutWrap": "NO_WRAP",
+      "counterAxisSpacing": 0,
+      "counterAxisAlignContent": "AUTO",
+      "layoutPositioning": "AUTO",
+      "minWidth": null,
+      "minHeight": null,
+      "maxWidth": null,
+      "maxHeight": null,
+      "layoutSizingHorizontal": "HUG",
+      "layoutSizingVertical": "FIXED",
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.30000001192092896,
+          "blendMode": "NORMAL",
+          "color": {
+            "hexRGBA": "#0000004D",
+            "colorVariableName": "Miscellaneous/Bar border"
+          }
+        }
+      ],
+      "cornerRadius": 14,
+      "opacity": 1,
+      "children": [
+        {
+          "id": "3082:2073",
+          "name": "􀐱",
+          "type": "TEXT",
+          "visible": true,
+          "locked": false,
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "layoutAlign": "INHERIT",
+          "layoutGrow": 0,
+          "x": 8,
+          "y": 4,
+          "width": 18,
+          "height": 20,
+          "rotation": 0,
+          "layoutPositioning": "AUTO",
+          "minWidth": null,
+          "minHeight": null,
+          "maxWidth": null,
+          "maxHeight": null,
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "hexRGBA": "#FF7A45FF",
+                "colorVariableName": "BrandPrimary/Light"
+              }
+            }
+          ],
+          "opacity": 1,
+          "characters": "􀐱",
+          "textAlignHorizontal": "LEFT",
+          "textAlignVertical": "BOTTOM",
+          "textAutoResize": "WIDTH_AND_HEIGHT",
+          "fontName": {
+            "family": "SF Pro",
+            "style": "Regular"
+          },
+          "fontSize": 15,
+          "textDecoration": "NONE",
+          "textVariableName": "Subheadline/Regular"
+        },
+        {
+          "id": "3082:2074",
+          "name": "Time",
+          "type": "TEXT",
+          "visible": true,
+          "locked": false,
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "layoutAlign": "INHERIT",
+          "layoutGrow": 0,
+          "x": 28,
+          "y": 4,
+          "width": 60,
+          "height": 20,
+          "rotation": 0,
+          "layoutPositioning": "AUTO",
+          "minWidth": null,
+          "minHeight": null,
+          "maxWidth": null,
+          "maxHeight": null,
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "hexRGBA": "#FF7A45FF",
+                "colorVariableName": "BrandPrimary/Light"
+              }
+            }
+          ],
+          "opacity": 1,
+          "characters": "01:03:41",
+          "textAlignHorizontal": "CENTER",
+          "textAlignVertical": "TOP",
+          "textAutoResize": "WIDTH_AND_HEIGHT",
+          "fontName": {
+            "family": "SF Pro",
+            "style": "Regular"
+          },
+          "fontSize": 15,
+          "textDecoration": "NONE",
+          "textVariableName": "Subheadline/Regular"
+        }
+      ]
+    }
+  ]
+}

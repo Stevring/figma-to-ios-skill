@@ -1,0 +1,29 @@
+{
+  "decisions": [
+    {
+      "node_id": "REPLACE_WITH_NODE_ID",
+      "status": "mapped",
+      "mapping": {
+        "ios_component": "UIView",
+        "representation": "container",
+        "layout_pins": {
+          "pins": {
+            "left": 16,
+            "right": 16,
+            "top": 10,
+            "bottom": null,
+            "width": "FILL",
+            "height": "intrinsicContentSize"
+          },
+          "notes": [
+            "Position follows parent auto layout."
+          ]
+        },
+        "style": {},
+        "implementation_spec": {},
+        "notes": "Review before implementation."
+      },
+      "absorb_children": []
+    }
+  ]
+}

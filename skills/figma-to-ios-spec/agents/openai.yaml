@@ -1,0 +1,4 @@
+interface:
+  display_name: "Figma to iOS Spec"
+  short_description: "Convert Figma JSON into reviewable iOS component specs"
+  default_prompt: "Generate JSON skeleton first, then map Figma nodes in BFS order and continuously write a parent-aware iOS mapping spec markdown draft."

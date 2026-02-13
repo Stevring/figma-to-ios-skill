@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/figma-to-ios-mapping-contract.schema.json",
+  "title": "Figma to iOS Mapping Contract (Flexible)",
+  "type": "object",
+  "required": [
+    "source",
+    "nodes"
+  ],
+  "properties": {
+    "contract_version": {
+      "type": ["string", "null"]
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "figma_json",
+        "generated_at",
+        "root_node_id"
+      ],
+      "properties": {
+        "figma_json": { "type": "string" },
+        "generated_at": { "type": "string" },
+        "root_node_id": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "nodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "node_id",
+          "node_name",
+          "figma_type",
+          "status",
+          "mapping"
+        ],
+        "properties": {
+          "bfs_index": { "type": ["integer", "number", "null"] },
+          "node_id": { "type": "string" },
+          "node_name": { "type": "string" },
+          "figma_type": { "type": "string" },
+          "path": { "type": ["string", "null"] },
+          "depth": { "type": ["integer", "number", "null"] },
+          "parent_node_id": { "type": ["string", "null"] },
+          "child_node_ids": {
+            "type": ["array", "null"],
+            "items": { "type": "string" }
+          },
+          "status": { "type": "string" },
+          "mapping": {
+            "type": "object",
+            "properties": {
+              "ios_component": { "type": ["string", "null"] },
+              "representation": { "type": ["string", "null"] },
+              "absorbed_into_parent": { "type": ["string", "null"] },
+              "layout_pins": {
+                "type": "object",
+                "properties": {
+                  "pins": { "type": ["object", "null"] },
+                  "notes": {
+                    "type": ["array", "null"],
+                    "items": { "type": "string" }
+                  }
+                },
+                "additionalProperties": true
+              },
+              "style": {
+                "type": "object",
+                "additionalProperties": true
+              },
+              "notes": { "type": ["string", "null"] }
+            },
+            "additionalProperties": true
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

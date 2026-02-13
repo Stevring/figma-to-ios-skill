@@ -1,0 +1,55 @@
+{
+  "id": "3271:2061",
+  "name": "Frame 78",
+  "type": "FRAME",
+  "visible": true,
+  "locked": false,
+  "constraints": {
+    "horizontal": "MIN",
+    "vertical": "MIN"
+  },
+  "layoutAlign": "INHERIT",
+  "layoutGrow": 0,
+  "x": 1130,
+  "y": 7790,
+  "width": 191,
+  "height": 56,
+  "rotation": 0,
+  "clipsContent": true,
+  "layoutMode": "NONE",
+  "primaryAxisAlignItems": "MIN",
+  "counterAxisAlignItems": "MIN",
+  "primaryAxisSizingMode": "AUTO",
+  "counterAxisSizingMode": "FIXED",
+  "itemSpacing": 0,
+  "paddingLeft": 0,
+  "paddingRight": 0,
+  "paddingTop": 0,
+  "paddingBottom": 0,
+  "layoutWrap": "NO_WRAP",
+  "counterAxisSpacing": 0,
+  "counterAxisAlignContent": "AUTO",
+  "layoutPositioning": "AUTO",
+  "minWidth": null,
+  "minHeight": null,
+  "maxWidth": null,
+  "maxHeight": null,
+  "layoutSizingHorizontal": "FIXED",
+  "layoutSizingVertical": "FIXED",
+  "fills": [
+    {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "hexRGBA": "#FFFFFFFF"
+      }
+    }
+  ],
+  "topLeftRadius": 0,
+  "topRightRadius": 16,
+  "bottomLeftRadius": 0,
+  "bottomRightRadius": 0,
+  "opacity": 1
+}
